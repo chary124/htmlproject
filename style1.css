@@ -1,0 +1,21 @@
+.box{
+   background-color: green;
+    display: flex;
+    justify-content:space-between;
+    border-color: red;
+    border-style: solid;
+}
+.con{
+  
+    
+    padding-right: 20px;
+    padding-top:20px;
+    color: black;
+}
+.f{
+    background-color: yellow;
+    
+}
+.con1{
+    align-content: center;
+}
