@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="eng"> 
+<html>
+    <head>
+
+        <style>
+            #main{
+               width:260px;
+               margin:auto;
+               border-radius: 20px;
+               padding:25px;
+              box-shadow:0 0 10px red;
+                color:lime;
+                background:black;
+
+            }
+            #main:hover{
+                box-shadow: 0 0 25px blue;
+                  
+            }
+
+        </style>
+        <title>ex27</title>
+    </head>
+    <body>
+<div id="main">
+    <h2 align="center"><u>Registration form</u></h2>
+    <form id="frm" action="register.html"> 
+    <div>
+        <label for="fna">Full name</label><span>*</span><br>
+       <input type="text" id="fns" name="fna" required autofocus>
+    </div>
+    <br>
+    <div>
+        <label for="em">Email id</label><span>*</span><br>
+        <input type="email" id="em" name="em">
+    </div>
+    <div>
+        <label for="ph">contact number</label><spam>*</spam><br>
+        <input type="text" id="ph" name="ph" required>
+    </div>
+    <br>
+    <div>
+        <label for="dob">date of birth</label><br>
+        <input type="date" id="dob" name="dob" min="1994-01-01" max="2024-07-04"><br>
+    </div>
+    <br>
+ <div>
+    <label for="gl">gender</label><br>
+    <input type="radio" id="gl" name="gl" value="m" checked>
+    <label>male</label>
+    <input type="radio" id="g2" name="g2" >
+    <label>female</label>
+    <input type="radio"  id="g3" namg="g3" >
+    <label>others</label>
+    <input type="radio" id="g4" name="g4">
+ </div>
+ <br>
+ <h1>
+ <div>
+    <label for="course">which course?</label><br>
+    <select id="course" name="course">
+        <option value="c">c program</option>
+        <option vlaue="j">java program</option>
+        <option value="h">html program</option>
+        <option value="c++">c++ program</option>
+        <option value="s">spring boot</option>
+        <option value="jd">jdbc program</option>
+        <option value="p">python program</option>
+        <option value=".n">.net</option>
+        <option value="s">sql</option>
+
+    </select>
+ </div>
+ </h1>
+ <div>
+  <h1>  <label for="mot">mode of training ?</label><br></h1>
+    <select id="mod" name="mod">
+        <option value="ct">classroom training</option>
+        <option value="ot">online training</option>
+        <option value="pm">placement training</option>
+        <option value="pt">project training</option>
+        <option value="intern">internship</option>
+
+
+    </select>
+ </div>
+ <div align="center">
+    <input type="checkbox" id="tc" name="tc" value="true" required>
+    <label>I Accepted all terms and conditions</label>
+ </div>
+ <div align="center">
+     <button type="submit" name="sb">Register Now</button>
+ </div>
+ </form>
+</div>
+    </body>
+</html>
